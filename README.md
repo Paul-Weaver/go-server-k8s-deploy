@@ -11,10 +11,10 @@ This repository demonstrates how to create a simple Go web server, containerize 
 
 Before getting started, ensure you have the following tools installed:
 
-- Docker: [Installation Guide](link-to-docker-installation)
-- Minikube: [Installation Guide](link-to-minikube-installation)
-- Go: [Installation Guide](link-to-go-installation)
-- kubectl: [Installation Guide](link-to-kubectl-installation)
+- Docker: [Installation Guide]([link-to-docker-installation](https://www.docker.com/products/docker-desktop/))
+- Minikube: [Installation Guide]([link-to-minikube-installation](https://minikube.sigs.k8s.io/docs/start/))
+- Go: [Installation Guide]([link-to-go-installation](https://go.dev/doc/install))
+- kubectl: [Installation Guide]([link-to-kubectl-installation](https://go.dev/doc/install))
 
 ## How to Run
 
