@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: plutopilot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: plutopilot
+  template:
+    metadata:
+      labels:
+        app: plutopilot
+    spec:
+      containers:
+      - name: plutopilot
+        image: plutopilot-webserver
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
